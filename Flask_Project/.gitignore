@@ -1,0 +1,11 @@
+#folders
+FLASK_APP=Sample_app.py
+project_env
+templatesexport
+__pycache__
+
+
+#file
+__init__.py
+site.py
+simple_app/.env

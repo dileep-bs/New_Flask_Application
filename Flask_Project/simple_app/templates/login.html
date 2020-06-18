@@ -1,0 +1,46 @@
+<center>
+     <div class="form_name">
+         <h1><u>Welcome to login</u></h1>
+         </div>
+<form method="POST" action="">
+        <div class="form-group">
+            {{ form.email.label(class="form-control-label") }} :
+            {{ form.email(class="form-control form-control-lg") }}
+        </div>
+
+        <div class="form-group">
+            {{ form.password.label(class="form-control-label") }} :
+            {{ form.password(class="form-control form-control-lg") }}
+        </div>
+        <p><input type="submit" class="btn btn-primary" value="Submit" /></p>
+        <div class="border-top pt-3">
+            <small class="text-muted"> go back <a class="ml-2" href="{{url_for('register')}}">register</a></small>
+        </div>
+    </center>
+</form>
+<style>
+.form-group{
+position: relative;
+  font-size: 20;
+  background: skyblue;
+  max-width: 250px;
+  margin: 15px auto 50px;
+  padding:5px;
+  text-align: center;
+}
+.form_name{
+ background: yellow;
+margin: 0 auto 35px;
+font-size: 150%;
+  text-align: center;
+}
+.btn-primary{
+position: relative;
+  font-size: 20;
+  background: skyblue;
+  max-width: 250px;
+  margin: 15px auto 50px;
+  padding:5px;
+  text-align: center;
+}
+</style>
